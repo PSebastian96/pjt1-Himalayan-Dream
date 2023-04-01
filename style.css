@@ -1,3 +1,4 @@
+/* menu styling */
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -8,7 +9,7 @@
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -20,4 +21,23 @@
 
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
+}
+/* logo styling */
+#logo {
+    text-align: center;
+    
+}
+/* footer styling */
+.footer {
+    text-align: center;
+}
+/* map styling */
+#map-wrapper {
+    width: 78em;
+    height: 300px;
+}
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }

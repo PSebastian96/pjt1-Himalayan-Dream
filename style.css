@@ -46,6 +46,10 @@
 }
 
 /* other */
-#socials {
+.text-center {
+    text-align: center;
+}
+#table-center {
+    float: none;
     text-align: center;
 }

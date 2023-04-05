@@ -54,8 +54,25 @@ body {
 }
 
 /* footer styling */
-#footer-container {
+footer div {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    font-family: 'Kalam', cursive;
     text-align: center;
+    position: relative;
+    color: white;
+    background-color: rgba(33, 33, 33, 1);
+    height: 60px;
+    padding-top: 2%;
+}
+footer a {
+    color: inherit;
+}
+footer p {
+    margin: 0;
+    padding: 0;
 }
 
 /* map styling */
@@ -102,15 +119,7 @@ body {
 }
 
 /* image styling */
-#contact-section img{
-    max-width: 20%;
-    max-height: 30%;
-}
-#buddhaimg-container img{
-    float: right;
-    width: 100%;
-    height: 65%;
-}
+
 #contact-section {
-     float: left;
+    
 }

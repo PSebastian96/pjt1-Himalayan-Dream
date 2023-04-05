@@ -40,9 +40,9 @@
     border: none;
 }
 
-/* other */
+/* text-styling */
 .text-center {
-    text-align: right;
+    margin: 0% auto;
 }
 
 .text-justify {

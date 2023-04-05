@@ -1,3 +1,7 @@
+#index-hero-img {
+    margin: 0 auto;
+    background-size: cover;
+}
 /* menu styling */
 #menu{
     font-size: 110%;
@@ -38,12 +42,9 @@
 
 /* other */
 .text-center {
-    text-align: center;
+    text-align: right;
 }
-#table-center {
-    float: none;
-    text-align: center;
-}
+
 .text-justify {
     text-align: justify;
 }

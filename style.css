@@ -2,22 +2,27 @@ body {
     margin-top: 0%;
     margin-left: 0%;
 }
-.navbar-container {
-    margin: 0 auto;
-}
-#index-hero-img img {
+
+#banner-container {
     margin: 0px auto;
     width: 100.6%;
+    height: auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    z-index: 1;
 }
 /* menu styling */
 #menu{
-    font-size: 110%;
     letter-spacing: 4px;
     line-height: 75px;
+    font-size: 110%;
+    margin: 0% auto;
+    width: 100%;
+    color: white;
+    position: fixed;
+    z-index: 2;
 }
 
 #menu li {

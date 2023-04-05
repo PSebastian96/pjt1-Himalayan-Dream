@@ -4,14 +4,19 @@ body {
 }
 /* banner image */
 #banner-container {
-    margin: 0px auto;
-    width: 100.6%;
-    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     z-index: 1;
+}
+
+#banner-container img {
+    width: 100.6%;
+    height: 10%;
+    margin-right: 0%;
 }
 /* menu styling */
 #menu{
@@ -29,7 +34,7 @@ body {
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #menu a {
@@ -38,7 +43,8 @@ body {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid;
+    color: inherit;
 }
 
 /* footer styling */
@@ -67,4 +73,14 @@ body {
 
 .text-justify {
     text-align: justify;
+}
+/* image styling */
+#buddhaimg-container {
+    height: auto;
+    width: auto;
+}
+#buddhaimg-container img{
+    float: right;
+    max-width: 20%;
+    max-height: 50%;
 }

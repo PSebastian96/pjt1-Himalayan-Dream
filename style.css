@@ -25,8 +25,13 @@
 }
 
 /* footer styling */
-.footer {
+#footer-container {
     text-align: center;
+    background-color: orange;
+}
+
+#footer-container p {
+    color:blue
 }
 
 /* map styling */
@@ -42,7 +47,7 @@
 
 /* text-styling */
 .text-center {
-    margin: 0% auto;
+    text-align: center;
 }
 
 .text-justify {

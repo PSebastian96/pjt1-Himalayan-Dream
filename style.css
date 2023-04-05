@@ -2,7 +2,7 @@ body {
     margin-top: 0%;
     margin-left: 0%;
 }
-
+/* banner image */
 #banner-container {
     margin: 0px auto;
     width: 100.6%;
@@ -21,6 +21,7 @@ body {
     margin: 0% auto;
     width: 100%;
     color: white;
+    background-color: rgba(0,0,0,0.5);
     position: fixed;
     z-index: 2;
 }

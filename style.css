@@ -2,6 +2,9 @@ body {
     margin-top: 0%;
     margin-left: 0%;
 }
+.navbar-container {
+    margin: 0 auto;
+}
 #index-hero-img img {
     margin: 0px auto;
     width: 100.6%;
@@ -53,7 +56,7 @@ body {
     text-align: center;
 }
 .table-center {
-    text-align: ;
+    text-align: center;
 }
 
 .text-justify {

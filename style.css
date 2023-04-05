@@ -1,6 +1,14 @@
-#index-hero-img {
-    margin: 0 auto;
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+}
+#index-hero-img img {
+    margin: 0px auto;
+    width: 100.6%;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 /* menu styling */
 #menu{
@@ -27,11 +35,6 @@
 /* footer styling */
 #footer-container {
     text-align: center;
-    background-color: orange;
-}
-
-#footer-container p {
-    color:blue
 }
 
 /* map styling */
@@ -48,6 +51,9 @@
 /* text-styling */
 .text-center {
     text-align: center;
+}
+.table-center {
+    text-align: ;
 }
 
 .text-justify {

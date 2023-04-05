@@ -75,12 +75,15 @@ body {
     text-align: justify;
 }
 /* image styling */
-#buddhaimg-container {
-    height: auto;
-    width: auto;
+#contact-section img{
+    max-width: 20%;
+    max-height: 30%;
 }
 #buddhaimg-container img{
     float: right;
-    max-width: 20%;
-    max-height: 50%;
+    width: 100%;
+    height: 65%;
+}
+#contact-section {
+     float: left;
 }

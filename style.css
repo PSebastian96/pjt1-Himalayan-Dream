@@ -109,19 +109,26 @@ footer p {
     color: rgb(255, 255, 255);
     z-index: 3;
 }
-#index-text {
+#index-container {
+    position: relative;
+    text-align: center;
+}
+#about-us {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
-    float: left;
-    border-radius: 50%;
+    text-align: center;
+    color: azure;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
 }
-#index-text a {
+#about-us a {
     color: inherit;
 }
 
 /* image styling */
 
-#content-img {
-    max-width: 300px;
-    max-height: 100px;
-}
+

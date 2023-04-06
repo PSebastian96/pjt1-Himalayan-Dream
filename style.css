@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 /* banner image */
 #banner-container {
@@ -245,7 +245,17 @@ footer p {
     color: inherit;
 }
 
+#gallery-garden {
+    clear: both;
+    line-height: 200%;
+    column-count: 3;
+    column-gap: 5px;
+    background-color: rgb(151, 162, 151);
+}
 
+#gallery-garden img{
+    width: 100%;
+}
 
 /* join us page  section */
 

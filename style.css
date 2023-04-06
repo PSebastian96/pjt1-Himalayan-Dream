@@ -250,7 +250,7 @@ footer p {
     line-height: 200%;
     column-count: 3;
     column-gap: 5px;
-    background-color: orange;
+    background-color: rgb(221, 96, 1);
 }
 
 #gallery-garden img{

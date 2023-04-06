@@ -214,6 +214,24 @@ footer p {
     padding: 1px;
 }
 
+/* community garden style */
+
+#garden-image {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
 /* join us page style */
 
 #join-container {

@@ -121,6 +121,7 @@ footer p {
 
 /* image styling */
 
-#contact-section {
-    
+#content-img {
+    max-width: 300px;
+    max-height: 100px;
 }

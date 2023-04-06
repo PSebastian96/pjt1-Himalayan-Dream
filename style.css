@@ -24,7 +24,7 @@ body {
     padding: 0;
 }
 
-/* banner class style */
+/* hero class style */
 .hero-container {
     position: relative;
     text-align: center;
@@ -212,6 +212,31 @@ footer p {
 #buddhism-text p {
     margin: 1px;
     padding: 1px;
+}
+
+/* join us page style */
+
+#join-container {
+    position: relative;
+    text-align: center;
+}
+
+#join-image {
+    width: 100%;
+    margin-right: 0%;
+    padding: 0;
+}
+
+#text-join {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* contact page style */

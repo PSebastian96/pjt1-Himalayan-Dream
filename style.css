@@ -121,6 +121,9 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 #about-us {
     font-family: 'Kalam', cursive;
@@ -142,7 +145,7 @@ footer p {
     text-align: center;
 }
 
-#contact-img{
+#temple-img{
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
@@ -159,13 +162,21 @@ footer p {
     color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-  top: 50%;
+  top: 35%;
   left: 25%;
 }
-table h3{
+#table-left {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.5);
+}
+th,td {
+    border-bottom: 1px solid white;
+}
+table {
     float: right;
 }
-
 /* image styling */
 
 

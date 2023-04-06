@@ -116,7 +116,7 @@ footer p {
     border: none;
 }
 
-/* index page content style */
+/* index page content section */
 #index-header {
     font-family: 'Kalam', cursive;
     font-size: 40px;
@@ -189,7 +189,7 @@ footer p {
   transform: translate(-50%, -50%);
 }
 
-/* buddhism page */
+/* buddhism page section */
 
 #buddhism-text {
     font-family: 'Kalam', cursive;
@@ -214,7 +214,7 @@ footer p {
     padding: 1px;
 }
 
-/* community garden style */
+/* community garden page section */
 
 #garden-image {
     margin-left: 0px;
@@ -227,12 +227,27 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
 
+#garden-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#garden-text a {
+    color: inherit;
 }
 
 
 
-/* join us page style */
+/* join us page  section */
 
 #join-container {
     position: relative;
@@ -309,7 +324,7 @@ clear: left;
     background-color:#fafafa;
     color:#f16c6b;
 }
-/* contact page style */
+/* contact page section */
 #contactpage-container {
     position: relative;
     text-align: center;

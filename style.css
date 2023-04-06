@@ -98,17 +98,18 @@ footer p {
     font-size: 40px;
     text-align: center;
     position: absolute;
-    top: 137%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     z-index: 3;
 }
 #index-container {
-    position: relative;
-    text-align: center;
     width: 100%;
     height: 100%;
+    text-align: center;
+    position: relative;
+    
 }
 #candles-img {
     margin-left: 0px;
@@ -142,7 +143,7 @@ footer p {
     text-align: center;
 }
 
-#temple-img{
+#nature-img{
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
@@ -159,20 +160,9 @@ footer p {
     color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-  top: 35%;
-  left: 25%;
-}
-#table-left {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0,0,0,0.5);
-}
-th,td {
-    border-bottom: 1px solid white;
-}
-table {
-    float: right;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
 }
 
 /* contact page style */

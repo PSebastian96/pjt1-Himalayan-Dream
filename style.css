@@ -23,6 +23,35 @@ body {
     margin-right: 0%;
     padding: 0;
 }
+
+/* banner class style */
+.hero-container {
+    position: relative;
+    text-align: center;
+    
+}
+
+.hero-image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-text {
+    font-size: 90px;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    color: rgb(21, 20, 20);
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
 /* menu styling */
 #menu{
     letter-spacing: 4px;
@@ -85,11 +114,6 @@ footer p {
     height: 100%;
     width: 100%;
     border: none;
-}
-
-/* text-styling */
-.text-justify {
-    text-align: justify;
 }
 
 /* index page content style */
@@ -163,6 +187,31 @@ footer p {
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
+}
+
+/* buddhism page */
+
+#buddhism-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: justify;
+    color:black;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+    margin: 0;
+    text-decoration: underline 2px;
+}
+.center-text h4 {
+    margin-bottom: 0;
+}
+
+#buddhism-text p {
+    margin: 1px;
+    padding: 1px;
 }
 
 /* contact page style */

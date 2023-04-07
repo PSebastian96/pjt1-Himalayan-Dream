@@ -40,21 +40,21 @@
           </div>
           <div class="hero-container">
             <div class="hero-image">
-              <img src="images/yoga1.jpg" alt="yoga-group">
+              <img src="images/yogahero.jpg" alt="yoga-group">
             </div>
             <h1 class="hero-text">Yoga</h1>
            </div>
     </header>
     <!--Content-->
-    <h2>Welcome to our Yoga Sessions</h2>
+        <div id="yoga-text">
+        <h2>Welcome to our Yoga Sessions</h2>
         <p>Yoga is a Hindu spiritual and ascetic discipline, a part of which, including breath control, simple meditation, and the adoption of specific bodily postures, is widely practised for health and relaxation.</p>
         <p>Whether you are new or familiar with yoga practices, our members will welcome you 
         and help you to relax and stretch your muscles.</p>
         <p>Our Yoga Sessions are available to anyone (members and non members).</p>
         <p>If you wish to join our community, please sign up <a href="joinus.html">here</a></p>
         <p>Yoga Sessions :</p>
-        <div>
-            <table class="#">
+            <table id="yoga-table">
                 <tr>
                     <th>Day</th>
                     <th>Start</th>
@@ -90,29 +90,30 @@
                     <td>10:00</td>
                     <td>10:00</td>
                 </tr>	
-                </table>
+             </table>
         </div>
-        <p>To attend the yoga sessions, please book your time by filling out the following form:</p>
-        <form>
+        <section id="yoga-section-container"> 
+        <form id="yoga-form">
+            <p>To attend the yoga sessions, please book your time by filling out the following form:</p>
             <fieldset>
                 <fieldset>
                     <legend>Your details</legend>
             
                     <div class="float-left">
                         <label for="fname-field" class="block-label">First Name</label>
-                        <input id="fname-field" type="text" name="full_name" placeholder="First Name" required>
+                        <input id="fname-field" type="text" name="full_name" placeholder="First Name" class="yoga-form-input"  required>
                     </div>
                     <div class="float-left">
                         <label for="lname-field" class="block-label">Last Name</label>
-                        <input id="lname-field" type="text" name="full_name" placeholder="Last Name" required>
+                        <input id="lname-field" type="text" name="full_name" placeholder="Last Name" class="yoga-form-input" required>
                     </div>
                     <div class="float-left">
                         <label for="email-field" class="block-label">Email</label>
-                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" class="yoga-form-input" required>
                     </div>
             
                     <label for="age" class="block-label">Age</label>
-                    <select id="age" name="age" required>
+                    <select id="age" name="age" class="yoga-form-input" required>
                         <option value="under-20">Under 20</option>
                         <option value="20s">20-29</option>
                         <option value="30s">30-39</option>
@@ -161,10 +162,11 @@
 				<label for="weekend-checkbox">Weekend Only</label>
 			</div>
             <p>Note: You can select multiple options.</p>
-            <button type="submit" value="Let's Meet" class="join-button">		
+            <input type="submit" value="Let's Meet" class="yoga-button">		
 		</fieldset>
     </fieldset>    
-    </form>    
+    </form>
+    </section>    
     <!--Footer-->
     <footer>
     

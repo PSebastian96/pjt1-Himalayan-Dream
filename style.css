@@ -48,7 +48,7 @@ body {
     color: rgb(21, 20, 20);
     position: absolute;
     top: 50%;
-    left: 28%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
@@ -307,7 +307,87 @@ footer p {
 
 /* yoga page section */
 
+#yoga-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+    color:black;
+    background-color: rgb(246, 127, 127);
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
 
+#yoga-text h2 {
+    margin-top: 0;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+#yoga-text a {
+    color: inherit;
+}
+
+#-text {
+    padding-left: 120px;
+    text-decoration: 2px solid underline;
+}
+
+#yoga-table {
+    margin: auto;
+    padding-left: auto;
+}
+
+#yoga-table th, td {
+    border-bottom: 2px solid #030202;
+  }
+
+#yoga-section-container {
+    clear: left;
+    background: url("images/yogaform.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+
+#yoga-form {
+    color: white;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width: 100%;
+    position:absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.yoga-form-input {
+    background: rgba(60, 60, 60, 0.6);
+    color:#ffffff;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border: 1px solid #f9f3ed;
+    border-radius:3px;
+}
+
+.yoga-form-input:hover {
+    border-color:#f16c6b;
+}
+
+.yoga-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 22px 10px 22px;
+    text-align:center;
+    font-size:100%;
+    background-color: orange;
+    color:#fafafa;
+    display:block;
+}
+
+.yoga-button:hover { 
+    background-color:#fc0000;
+    color:#ffffff;
+}
 
 /* community garden page section */
 

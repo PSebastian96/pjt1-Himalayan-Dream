@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 body {
-    margin-top: 0;
-    margin-left: 0;
+    margin:0;
     padding: 0 auto;
 }
 /* banner image */
-#banner-container {
-    margin-left: 0;
-    margin-right: 0;
+.background-container {
+    margin:0;
     padding: 0;
-    max-width: fit-content;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    position: absolute;
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +38,12 @@ body {
     justify-content: space-between;
 }
 
+    clear: left;
+    background: url("images/stackedrocks.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
 .hero-text {
     font-size: 90px;
     font-family: 'Kalam', cursive;
@@ -531,9 +532,9 @@ clear: left;
     color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 

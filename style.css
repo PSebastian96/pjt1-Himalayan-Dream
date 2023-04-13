@@ -3,38 +3,21 @@ body {
     margin:0;
     padding: 0 auto;
 }
-/* banner image */
+
+/* background class style */
+
 .background-container {
-    margin:0;
-    padding: 0;
-    background-position: center;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#banner-container img {
-    width: 100%;
-    margin-right: 0%;
-    padding: 0;
-}
-
-/* hero class style */
-
-.hero-container {
     position: relative;
     text-align: center;
     
 }
-.hero-container img {
+.background-container img {
     width: 100%;
     margin-right: 0%;
     padding: 0;
 }
 
-.hero-text {
+.hero-text { content-text
     font-size: 90px;
     font-family: 'Kalam', cursive;
     font-weight: bolder;
@@ -100,7 +83,7 @@ footer p {
 
 /* map styling */
 #map-wrapper {
-    width: 78em;
+    width: 100%;
     height: 300px;
 }
 #map {
@@ -128,18 +111,7 @@ footer p {
     position: relative;
     
 }
-#candles-img {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 #about-us {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
@@ -147,9 +119,9 @@ footer p {
     color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 #about-us a {
@@ -160,16 +132,6 @@ footer p {
     text-align: center;
 }
 
-#nature-img{
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0;
-    max-width: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 #contact-center-text {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
@@ -177,9 +139,9 @@ footer p {
     color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-  top: 50%;
-  left: 35%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
 }
 
 /* buddhism page section */
@@ -366,9 +328,11 @@ footer p {
     border-color:#f16c6b;
 }
 
-.yoga-button {
+.key-button {
     margin-top: 20px;
     border-radius: 2px;
+    border-color: black;
+    border-style: solid;
     padding: 10px 22px 10px 22px;
     text-align:center;
     font-size:100%;
@@ -377,7 +341,7 @@ footer p {
     display:block;
 }
 
-.yoga-button:hover { 
+.key-button:hover { 
     background-color:#fc0000;
     color:#ffffff;
 }

@@ -452,7 +452,7 @@ footer p {
 
 #form-section {
 clear: left;
-    background: url("images/gate.jpg");
+    background: url("images/buddhistboy.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -489,8 +489,8 @@ clear: left;
 
 .join-button {
     margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    border-radius: 1px;
+    padding: 15px 20px 15px 20px;
     text-align:center;
     font-size:100%;
     background-color:#f16c6b;

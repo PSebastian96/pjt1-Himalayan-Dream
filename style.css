@@ -384,19 +384,6 @@ footer p {
 
 /* community garden page section */
 
-#garden-image {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 #garden-text {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
@@ -412,13 +399,14 @@ footer p {
 #garden-text a {
     color: inherit;
 }
+/* garden gallery style */
 
 #gallery-garden {
     clear: both;
     line-height: 200%;
     column-count: 3;
     column-gap: 5px;
-    background-color: rgb(221, 96, 1);
+    background-color: rgb(221, 127, 84);
 }
 
 #gallery-garden img{

@@ -8,7 +8,7 @@ body {
 
 /* menu styling */
 
-#menu{
+#menu {
     letter-spacing: 4px;
     line-height: 75px;
     font-size: 110%;
@@ -43,6 +43,7 @@ body {
     position: relative;
     text-align: center;
 }
+
 .background-container img {
     width: 100%;
     vertical-align: bottom;
@@ -72,6 +73,7 @@ body {
     height: 100%;
     width: 50%;
     display: inline;
+    border-radius: 10%;
 }
 
 .text-next-map {
@@ -80,6 +82,7 @@ body {
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
+    border-radius: 10%;
     float: right;
     padding: 10px;
     position: relative;
@@ -145,6 +148,11 @@ footer p {
 
 .text-center a {
     color: inherit;
+}
+
+.email-underline {
+    text-decoration: underline;
+    padding: 0%;
 }
 
 /* buddhism page section */
@@ -226,3 +234,16 @@ footer p {
     padding-right: 100px;
 }
 
+/* garden gallery style */
+
+#gallery-garden {
+    clear: both;
+    line-height: 200%;
+    column-count: 3;
+    column-gap: 5px;
+    background-color: rgb(221, 127, 84);
+}
+
+#gallery-garden img {
+    width: 100%;
+}

@@ -229,20 +229,6 @@ footer p {
     padding-bottom: 40px;
 }
 
-<<<<<<< HEAD
-#yoga-text h2 {
-    margin-top: 0;
-    padding-top: 30px;
-}
-
-#yoga-text a {
-    color: inherit;
-}
-
-.content-text h2 {
-    margin-top: 0;
-    padding-top: 30px;
-=======
 #yoga-text-top {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
@@ -265,7 +251,6 @@ footer p {
 
 .left-section a {
     color: inherit;
->>>>>>> alpha
     text-decoration: underline;
 }
 

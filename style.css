@@ -180,7 +180,7 @@ footer p {
     padding: 1px;
 }
 
-/* meditation and yoga content */
+/* buddhism meditation and yoga hero title*/
 
 .hero-title {
     font-size: 80px;
@@ -193,7 +193,9 @@ footer p {
     transform: translate(-50%, -50%);
 }
 
-.main {
+/* meditation content */
+
+#meditate-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,19 +203,45 @@ footer p {
     padding-bottom: 40px;
   }
 
-.text-center-top {
+#meditate-text-top {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    background-color: orange;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* yoga content */
+
+#yoga-main {
+    display: flex;
+    justify-content: center;
     font-family: 'Kalam', cursive;
     font-weight: bolder;
     text-align: center;
     color:black;
-    background-color: orange;
+    background-color: rgb(246, 127, 127);
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
-.text-center-top h2 {
+#yoga-text-top {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    background-color:rgb(246, 127, 127);
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
 }
+
+/* meditation and yoga main section */
 
 .left-section {
     font-family: 'Kalam', cursive;
@@ -223,44 +251,8 @@ footer p {
 
 .left-section a {
     color: inherit;
-}
-
-#yoga-text {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    text-align: center;
-    color:black;
-    background-color: rgb(246, 127, 127);
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
-
-.content-text h2 {
-    margin-top: 0;
-    padding-top: 30px;
     text-decoration: underline;
 }
-
-.content-text a {
-    color: inherit;
-}
-
-.table-text {
-    float: left;
-    text-decoration: 2px solid underline;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0,0,0,0.5);
-}
-
-.session-table {
-    float: left;
-    color: #f9f3ed;
-    background-color: rgba(0,0,0,0.5);
-}
-
-.session-table th, td {
-    border-bottom: 2px solid #030202;
-  }
 
 .video-container {
     float: right;
@@ -295,8 +287,12 @@ footer p {
     background-color:rgba(60, 60, 60, 0.6);
     max-width: 100%;
     position:absolute;
-    margin-top: 15%;
-    margin-left: 30%;
+    margin-top: 5%;
+    margin-left: 37.5%;
+}
+
+.layout-form p {
+    text-align: center;
 }
 
 .content-form-input {

@@ -193,21 +193,35 @@ footer p {
     transform: translate(-50%, -50%);
 }
 
-#meditate-text {
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding-bottom: 40px;
+  }
+
+.text-center-top {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
     text-align: center;
     color:black;
     background-color: orange;
-    padding-bottom: 340px;
 }
 
-#meditate-text h2 {
-    margin-top: 0;
+.text-center-top h2 {
+    margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#meditate-text a {
+.left-section {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.left-section a {
     color: inherit;
 }
 
@@ -253,7 +267,7 @@ footer p {
     position: relative;
     height: 50%;
     width: 50%;
-    padding-right: 100px;
+    padding-right: 40px;
 }
 
 /* form section */
@@ -353,3 +367,4 @@ footer p {
 #gallery-garden img {
     width: 100%;
 }
+

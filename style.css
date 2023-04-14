@@ -314,6 +314,7 @@ footer p {
     text-align:center;
     font-size:100%;
     border-style: solid;
+    border-color: black;
     background-color: orange;
     color:#fafafa;
     display:block;
@@ -363,4 +364,3 @@ footer p {
 #gallery-garden img {
     width: 100%;
 }
-

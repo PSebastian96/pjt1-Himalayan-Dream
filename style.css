@@ -3,29 +3,7 @@
 
 body {
     margin:0;
-    padding: 0 auto;
-}
-
-/* background class style */
-
-.background-container {
-    position: relative;
-    text-align: center;
-}
-.background-container img {
-    width: 100%;
-    vertical-align: bottom;
-}
-
-.title-text {
-    font-size: 90px;
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    color: rgb(21, 20, 20);
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    padding: 0;
 }
 
 /* menu styling */
@@ -59,31 +37,26 @@ body {
     color: inherit;
 }
 
-/* footer section */
+/* background-container class style */
 
-footer div {
-    margin: 0;
-    padding:0;
-}
-
-footer {
-    font-family: 'Kalam', cursive;
-    text-align: center;
+.background-container {
     position: relative;
-    color: white;
-    background-color: rgba(33, 33, 33, 1);
-    height: 60px;
-    padding-top: 2%;
-    margin-right: 0;
+    text-align: center;
+}
+.background-container img {
+    width: 100%;
+    vertical-align: bottom;
 }
 
-footer a {
-    color: inherit;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
+.title-text {
+    font-size: 90px;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    color: rgb(21, 20, 20);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
 }
 
 /* map styling */
@@ -114,9 +87,37 @@ footer p {
     left: 5%;
     transform: translate(-50%, -50%);
 }
-/* index page content section */
 
-#index-header {
+/* footer section */
+
+footer div {
+    margin: 0;
+    padding:0;
+}
+
+footer {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color: rgba(33, 33, 33, 1);
+    height: 60px;
+    padding-top: 2%;
+    margin-right: 0;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* index page title */
+
+#index-title {
     font-family: 'Kalam', cursive;
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -128,15 +129,9 @@ footer p {
     z-index: 3;
 }
 
-#index-container {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: relative;
-    
-}
+/* text-center position */
 
-#about-us {
+.text-center {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
     text-align: center;
@@ -146,28 +141,10 @@ footer p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 
-#about-us a {
+.text-center a {
     color: inherit;
-}
-
-#contact-container {
-    position: relative;
-    text-align: center;
-}
-
-#contact-center-text {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
 }
 
 /* buddhism page section */
@@ -195,9 +172,9 @@ footer p {
     padding: 1px;
 }
 
-/* meditation page section */
+/* meditation and yoga content */
 
-#med-text {
+#meditate-text {
     font-family: 'Kalam', cursive;
     font-weight: bolder;
     text-align: center;
@@ -206,87 +183,6 @@ footer p {
     margin: 0 auto;
     padding-bottom: 100px;
 }
-
-#med-text h2 {
-    margin-top: 0;
-    padding-top: 30px;
-    text-decoration: underline;
-}
-
-#med-text a {
-    color: inherit;
-}
-
-#table-text {
-    padding-left: 120px;
-    text-decoration: 2px solid underline;
-}
-
-#med-table {
-    margin: auto;
-    padding-left: 100px;
-}
-
-#med-table th, td {
-    border-bottom: 2px solid #030202;
-  }
-
-#video-container {
-    float: right;
-    position: relative;
-    height: 50%;
-    width: 50%;
-    padding-right: 100px;
-}
-
-#med-section-container {
-    clear: left;
-    background: url("images/zengirl.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    width: 100%;
-}
-#meditation-form {
-    color: white;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width: 100%;
-    position:absolute;
-    margin-top: 15%;
-    margin-left: 30%;
-}
-
-.med-form-input {
-    background: rgba(60, 60, 60, 0.6);
-    color:#ffffff;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border: 1px solid #f9f3ed;
-    border-radius:3px;
-}
-
-.med-form-input:hover {
-    border-color:#f16c6b;
-}
-
-.meditate-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 10px 22px 10px 22px;
-    text-align:center;
-    font-size:100%;
-    background-color: orange;
-    color:#fafafa;
-    display:block;
-}
-
-.meditate-button:hover { 
-    background-color:#fc0000;
-    color:#ffffff;
-}
-
-/* yoga page section */
 
 #yoga-text {
     font-family: 'Kalam', cursive;
@@ -298,211 +194,35 @@ footer p {
     padding-bottom: 100px;
 }
 
-#yoga-text h2 {
+.content-text h2 {
     margin-top: 0;
     padding-top: 30px;
     text-decoration: underline;
 }
 
-#yoga-text a {
+.content-text a {
     color: inherit;
 }
 
-#-text {
+.table-text {
     padding-left: 120px;
     text-decoration: 2px solid underline;
 }
 
-#yoga-table {
+.session-table {
     margin: auto;
-    padding-left: auto;
+    padding-left: 100px;
 }
 
-#yoga-table th, td {
+.session-table th, td {
     border-bottom: 2px solid #030202;
   }
 
-#yoga-section-container {
-    clear: left;
-    background: url("images/yogaform.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    width: 100%;
-}
-
-#yoga-form {
-    color: white;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width: 100%;
-    position:absolute;
-    margin-top: 5%;
-    margin-left: 30%;
-}
-
-.yoga-form-input {
-    background: rgba(60, 60, 60, 0.6);
-    color:#ffffff;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border: 1px solid #f9f3ed;
-    border-radius:3px;
-}
-
-.yoga-form-input:hover {
-    border-color:#f16c6b;
-}
-
-.key-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    border-color: black;
-    border-style: solid;
-    padding: 10px 22px 10px 22px;
-    text-align:center;
-    font-size:100%;
-    background-color: orange;
-    color:#fafafa;
-    display:block;
-}
-
-.key-button:hover { 
-    background-color:#fc0000;
-    color:#ffffff;
-}
-
-/* community garden page section */
-
-#garden-text {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#garden-text a {
-    color: inherit;
-}
-/* garden gallery style */
-
-#gallery-garden {
-    clear: both;
-    line-height: 200%;
-    column-count: 3;
-    column-gap: 5px;
-    background-color: rgb(221, 127, 84);
-}
-
-#gallery-garden img{
-    width: 100%;
-}
-
-/* join us page  section */
-
-#join-container {
+.video-container {
+    float: right;
     position: relative;
-    text-align: center;
+    height: 50%;
+    width: 50%;
+    padding-right: 100px;
 }
-
-#join-image {
-    width: 100%;
-    margin-right: 0%;
-    padding: 0;
-}
-
-#text-join {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#form-section {
-clear: left;
-    background: url("images/buddhistboy.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    width: 100%;
-}
-#joinus-form {
-    margin-top: 25%;;
-    color:#000000;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left:31%;
-    padding:30px;
-}
-
-#joinus-form > h2 {
-    color:#fafafa;
-    margin-bottom:20px;
-}
-
-.text-input {
-    background:transparent;
-    color:#c32d2d;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border: 1px solid #000000;
-    border-radius:2px;
-}
-
-.text-input:hover {
-    border-color:#f16c6b;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 1px;
-    padding: 15px 20px 15px 20px;
-    text-align:center;
-    font-size:100%;
-    background-color:#f16c6b;
-    color:#fafafa;
-    display:block;
-}
-
-.join-button:hover { 
-    background-color:#fafafa;
-    color:#f16c6b;
-}
-
-/* contact page section */
-
-#contactpage-container {
-    position: relative;
-    text-align: center;
-}
-#contactpage-container img {
-    width: 100%;
-    margin-right: 0%;
-    padding: 0;
-}
-
-.text-center {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 

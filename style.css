@@ -221,6 +221,15 @@ footer p {
     padding-bottom: 100px;
 }
 
+#yoga-text h2 {
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+#yoga-text a {
+    color: inherit;
+}
+
 .content-text h2 {
     margin-top: 0;
     padding-top: 30px;

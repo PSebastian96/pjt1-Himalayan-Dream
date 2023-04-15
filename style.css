@@ -364,3 +364,10 @@ footer p {
     width: 100%;
 }
 
+/* menu dropdown */
+
+.dropdown-toggle {
+    background: transparent;
+    color: #fafafa;
+    border-style: hidden;
+}

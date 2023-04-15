@@ -353,12 +353,23 @@ footer p {
 
 /* garden gallery style */
 
+#gallery-container {
+    font-family: 'Kalam', cursive;
+    background-color: rgb(221, 127, 84);
+    text-align: center;
+}
+
+#gallery-container h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
 #gallery-garden {
     clear: both;
     line-height: 200%;
     column-count: 3;
     column-gap: 5px;
-    background-color: rgb(221, 127, 84);
 }
 
 #gallery-garden img {

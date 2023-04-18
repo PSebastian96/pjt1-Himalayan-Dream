@@ -69,11 +69,11 @@ body {
     background-color: #f16c6b;
 }
 
-#map {
+.map {
     height: 100%;
     width: 50%;
     display: inline;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .text-next-map {
@@ -374,4 +374,18 @@ footer p {
 
 #gallery-garden img {
     width: 100%;
+}
+
+@media and screen (max-width:800px) {
+    
+   .hero-title {
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    color: rgb(21, 20, 20);
+    position: absolute;
+   }
+
+    #gallery-garden {
+        column-count: 2;
+    }
 }

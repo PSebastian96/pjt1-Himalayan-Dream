@@ -263,12 +263,6 @@ footer p {
     width: 100%;
 }
 
-@media screen (max-width:800px) {
-    #gallery-garden {
-        column-count: 2;
-    }
-}
-
 /* index page */
 
 #heropage-container {

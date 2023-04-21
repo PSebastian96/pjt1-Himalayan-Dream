@@ -318,10 +318,25 @@ ul, ol {
 
 /* garden gallery style */
 
+#gardenbackground-container { height: 100vh;
+
+    background: url('images/gardenhero.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 #gallery-container {
-    font-family: 'Kalam', cursive;
     background-color: rgb(221, 127, 84);
     text-align: center;
+    padding: 0 20px 20px 20px;
 }
 
 #gallery-container h2 {
@@ -331,17 +346,16 @@ ul, ol {
 }
 
 #gallery-garden {
-    clear: both;
-    line-height: 200%;
     column-count: 3;
     column-gap: 5px;
 }
 
 #gallery-garden img {
     width: 100%;
+    padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     #gallery-garden {
         column-count: 1;
     }

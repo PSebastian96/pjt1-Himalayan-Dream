@@ -101,18 +101,6 @@ body {
     position: relative;
 }
 
-/* background-container class style */
-
-.background-container {
-    position: relative;
-    text-align: center;
-}
-
-.background-container img {
-    width: 100%;
-    vertical-align: bottom;
-}
-
 /* footer section */
 
 footer div {
@@ -148,6 +136,22 @@ footer p {
     background-color: orange;
     margin-top: 0;
     padding: 0;
+}
+
+#buddhism-background {
+    height: 100vh;
+
+    background: url('images/silverbuddha.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 ul, ol {
@@ -190,16 +194,14 @@ ul, ol {
     padding: 1px;
 }
 
-/* buddhism meditation and yoga hero title*/
+/* buddhism meditation and yoga title text*/
 
 .hero-title {
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    color: rgb(21, 20, 20);
-    position: absolute;
-    top: 48%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    color: rgb(244, 244, 244);
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: left;
+    color: #f9f3ed;
+    padding: 2rem 2rem;
 }
 
 /* meditation content */
@@ -338,6 +340,13 @@ ul, ol {
 #gallery-garden img {
     width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    #gallery-garden {
+        column-count: 1;
+    }
+}
+
 
 /* content, text and background */
 

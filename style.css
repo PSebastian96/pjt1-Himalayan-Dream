@@ -9,8 +9,6 @@ body {
     text-decoration: none;
 }
 
-
-
 /* background-container class style */
 
 .background-container {
@@ -33,8 +31,6 @@ body {
     left: 25%;
     transform: translate(-50%, -50%);
 }
-
-
 
 /* footer section */
 
@@ -149,7 +145,7 @@ footer p {
     padding-bottom: 30px;
 }
 
-/* form section */
+/* meditation and yoga form section */
 
 #med-form-container {
     clear: left;
@@ -212,31 +208,6 @@ footer p {
     color:#ffffff;
 }
 
-/* join us form */
-
-#joinus-form-container {
-    clear: left;
-    background: url("images/buddhistboy.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    width: 100%;
-    }
-
-#joinus-form {
-    margin-top: 25%;;
-    color:#ffffff; 
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left:31%;
-    padding:30px;
-    }
-
-#joinus-form > h2 {
-    color:#fafafa;
-    margin-bottom:20px;
-    }
 
 /* garden gallery style */
 
@@ -263,7 +234,7 @@ footer p {
     width: 100%;
 }
 
-/* index page */
+/* id page conatiners */
 
 #heropage-container {
     height: 100vh;
@@ -281,7 +252,23 @@ footer p {
     position: relative;
 }
 
-/* text and background */
+#contactpage-container {
+    height: 100vh;
+
+    background: url('images/buddhaheropic.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* content, text and background */
 
 .opaque-overlay {
     position: absolute;
@@ -295,6 +282,26 @@ footer p {
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #f9f3ed;
+    padding: 1rem 0.5rem
+}
+
+.jumbotron a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.jumbotron a:hover {
+    color: orange;
+}
+
+.row {
+    margin: auto;
 }
 
 /* Menu styling */
@@ -353,27 +360,6 @@ footer p {
     border-color: #000000;
     background-color: #fc0000;
     color: black;
-}
-
-/* content style */
-.jumbotron {
-    background-color: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #f9f3ed;
-    padding: 1rem 0.5rem
-}
-
-.jumbotron a {
-    color: inherit;
-    text-decoration: underline;
-}
-
-.jumbotron a:hover {
-    color: orange;
-}
-
-.row {
-    margin: auto;
 }
 
 /* container wrapper and content container*/

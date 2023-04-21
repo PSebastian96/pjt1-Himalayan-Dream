@@ -9,6 +9,98 @@ body {
     text-decoration: none;
 }
 
+/* Menu styling */
+
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 101%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-nav nav {
+    text-align: left;
+}
+
+/* join button style */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.btn--red {
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    border-color: #000000;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    border-color: #000000;
+    background-color: #fc0000;
+    color: black;
+}
+
+/* id page conatiners */
+
+#heropage-container {
+    height: 100vh;
+
+    background: url('images/heroimage.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#contactpage-container {
+    height: 100vh;
+
+    background: url('images/buddhaheropic.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 /* background-container class style */
 
 .background-container {
@@ -19,17 +111,6 @@ body {
 .background-container img {
     width: 100%;
     vertical-align: bottom;
-}
-
-.title-text {
-    font-size: 90px;
-    font-family: 'Kalam', cursive;
-    font-weight: bolder;
-    color: rgb(21, 20, 20);
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
 }
 
 /* footer section */
@@ -59,24 +140,49 @@ footer p {
     padding: 0;
 }
 
-/* buddhism page section */
+/* buddhism page content */
 
-#buddhism-text {
-    font-family: 'Kalam', cursive;
+#buddhism-container-wrapper {
     font-weight: bolder;
     text-align: justify;
-    color:black;
     background-color: orange;
-    margin: 0 auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 0;
 }
 
 #center-text {
     text-align: center;
     margin: 0;
+    padding-top: 20px;
     text-decoration: underline 2px;
 }
-#center-text h4 {
+
+.line-divider {
+    width: 50vh;
+    height: 2px;
+    background-color: #000000;
+}
+
+#bottom-center-text h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
     margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+#bottom-center-text a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#bottom-center-text a:hover {
+    color: blue;
 }
 
 #buddhism-text p {
@@ -87,7 +193,6 @@ footer p {
 /* buddhism meditation and yoga hero title*/
 
 .hero-title {
-    font-size: 80px;
     font-family: 'Kalam', cursive;
     font-weight: bolder;
     color: rgb(21, 20, 20);
@@ -234,40 +339,6 @@ footer p {
     width: 100%;
 }
 
-/* id page conatiners */
-
-#heropage-container {
-    height: 100vh;
-
-    background: url('images/heroimage.jpg') no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-#contactpage-container {
-    height: 100vh;
-
-    background: url('images/buddhaheropic.jpg') no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
 /* content, text and background */
 
 .opaque-overlay {
@@ -304,65 +375,11 @@ footer p {
     margin: auto;
 }
 
-/* Menu styling */
+/* containers */
 
-.navalert-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding-left: 0;
-    padding-right: 0;
+.container-fluid {
+    padding: 0;
 }
-
-.navbar {
-    margin-bottom: 0;
-    width: 101%;
-    background-color: rgba(0, 0, 0, 0.75);
-    border: 0;
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-.navbar .navbar-brand {
-    font-weight: bold;
-    margin-right: 2rem;
-}
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
-
-.navbar-nav nav {
-    text-align: left;
-}
-
-/* join button style */
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 20px;
-    width: 150px;
-}
-
-.btn--red {
-    color: rgb(0, 0, 0);
-    background-color: orange;
-    border-color: #000000;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    border-color: #000000;
-    background-color: #fc0000;
-    color: black;
-}
-
-/* container wrapper and content container*/
 
 .container-wrapper {
     background-color: #f16c6b;

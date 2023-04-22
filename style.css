@@ -114,6 +114,10 @@ body {
     padding-bottom: 8px;
 }
 
+.text-position-middle {
+    padding-top: 30px;
+}
+
 /* map styling */
 
 .map {
@@ -220,10 +224,10 @@ ul, ol {
 .hero-title {
     color: rgb(244, 244, 244);
     background-color: rgba(0, 0, 0, 0.4);
-    text-align: left;
-    color: #f9f3ed;
     padding: 2rem 2rem;
 }
+
+/* left side content */
 
 .text-position-middle i {
     padding-top: 50px;
@@ -411,7 +415,7 @@ ul, ol {
     padding-bottom: 10px;
 }
 
-/* content, text and background */
+/* content, text background */
 
 .opaque-overlay {
     position: absolute;

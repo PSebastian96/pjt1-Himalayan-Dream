@@ -266,6 +266,20 @@ ul, ol {
 
 /* yoga content */
 
+#yoga-background {
+    height: 100vh;
+    background: url('images/yogahero.jpg') no-repeat top center fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#yoga-wrapper {
+    background-color: #f769ab;
+    font-weight: bolder;
+}
+
 #yoga-main {
     display: flex;
     justify-content: center;

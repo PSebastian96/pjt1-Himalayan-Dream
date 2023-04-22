@@ -188,7 +188,7 @@ ul, ol {
 }
 
 .line-divider {
-    width: 50vh;
+    width: auto;
     height: 2px;
     background-color: #000000;
 }

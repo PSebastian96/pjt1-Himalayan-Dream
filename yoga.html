@@ -3,63 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Himalayan Dream</title>
 </head>
 <body>
+
     <!--Header Menu-->
     <header>
-        <div id="menu">
-            <nav>
-               <ul>
-                      <li>
-                       <a href="index.html">Home</a>
-                      </li>
-                   <li>
-                       <a href="buddhism.html">Buddhism</a>
-                   </li>
-                   <li>
-                       <a href="meditation.html">Meditation Sessions</a>
-                   </li>
-       
-                   <li>
-                       <a href="yoga.html">Yoga Sessions</a>
-                   </li>
-                   <li>
-                       <a href="garden.html">Community Garden</a>
-                   </li>
-                   <li>
-                       <a href="joinus.html">Join Us</a>
-                   </li>
-                   <li>
-                       <a href="contact.html">Contact Us</a>
-                   </li>
-               </ul>
-           </nav>
+        <div class="container-fluid navalert-container">
+            <div class="container-fluid">
+              <nav class="navbar navbar-dark navbar-expand-sm">
+                  <a href="index.html" class="navbar-brand">Himalayan Dream</a>
+                  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                          <li class="nav-item mr-2"><a class="nav-link" href="buddhism.html">Buddhism</a></li>
+                          <li class="nav-item mr-2"><a class="nav-link" href="meditation.html">Meditation Session</a></li>
+                          <li class="nav-item mr-2"><a class="nav-link" href="yoga.html">Yoga Session</a></li>
+                          <li class="nav-item mr-2"><a class="nav-link" href="garden.html">Comunity Garden</a></li>
+                          <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                          <li class="nav-item mr-2 d-block d-sm-none"><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></li>
+                      </ul>
+                  </div>
+                  <div class="d-none d-md-block">
+                  <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                  </div>
+              </nav>
+           </div>
           </div>
     </header>
+
     <!--Content-->
-        <div class="background-container">
-        <img src="images/yogahero.jpg" alt="yoga-group">
-        <h1 class="hero-title">Yoga<i class="fa-solid fa-spa" style="color:black"></i></h1>
+    <div class="container-fluid" id="yoga-background">
+        <div class="row">
+            <div class="col-12">
+                <section class="hero-title">
+           <h3>Yoga <i class="fa-solid fa-spa"></i></h3>
+                </section>
+            </div>
         </div>
-        <section id="yoga-text-top">
-        <h2>Welcome to our Yoga Sessions</h2>
-        </section>
-      <div id="yoga-main">
-        <section class="left-section">
-            <i class="fa-solid fa-spa" style="color:black; font-size: 40px;"></i>
-        <p>Yoga is a Hindu spiritual and ascetic discipline, a part of which, including breath control, simple meditation, and the adoption of specific bodily postures, is widely practised for health and relaxation.</p>
-        <p>Whether you are new or familiar with yoga practices, our members will welcome you 
-        and help you to relax and stretch your muscles.</p>
-        <p>Our Yoga Sessions are available to anyone (members and non members).</p>
-        <p>If you wish to join our community, please sign up <a href="joinus.html">here!</a></p>
-        </section>
-        <section class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VaoV1PrYft4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-      </div>
+    </div>
+    
+    <div id="yoga-wrapper">
+        <div class="container content-container">
+            <section class="content">
+                <div class="row">
+                    <div class="col-12 page-header">
+                     <h2 id="visit-title">Yoga Session</h2>
+                    </div>
+                </div>    
+                <div class="row"> 
+                    <div class="col-12 col-md-6">
+                        <div class="content text-position-middle">
+                            <i class="fa-solid fa-spa" style="font-size: 40px;"></i>
+                            <p>Yoga is a Hindu spiritual and ascetic discipline, a part of which, including breath control, simple meditation, and the adoption of specific bodily postures, is widely practised for health and relaxation.</p>
+            <p>Whether you are new or familiar with yoga practices, our members will welcome you 
+            and help you to relax and stretch your muscles.</p>
+            <p>Our Yoga Sessions are available to anyone (members and non members).</p>
+            <p>If you wish to join our community, please sign up <a href="#signUpModal" data-toggle="modal" data-target="#signUpModal">here!</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="content video-content">
+                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/VaoV1PrYft4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div> 
+
+    <!--yoga session form-->
     <section id="yoga-form-container"> 
         <form class="layout-form">
             <p> Book your yoga session! </p>
@@ -134,7 +150,39 @@
 		  </fieldset>
         </fieldset>    
       </form>
-    </section>    
+    </section>
+    
+    <!--Join Us form-->
+ <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Let's get you enlightened !</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Last Name</label>
+                        <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    </div>
+                    <button type="submit" class="btn btn-success">Join</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    
     <!--Footer-->
     <footer>
         
@@ -147,5 +195,8 @@
         <p>Copyright © Himalayan Dream</p>
             
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>    
 </html>

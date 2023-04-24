@@ -17,3 +17,5 @@ Visitors of the website can can get contact details about and location of the co
 Visitors can also book their meditation and/or yoga sessions on selected days and times.
 
 Site map :
+
+<img width="649" alt="website map" src="https://user-images.githubusercontent.com/123810890/234129322-7744f381-9109-436f-9d45-22f71144dd0e.png">

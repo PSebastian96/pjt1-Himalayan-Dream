@@ -3,7 +3,7 @@ First Milestone Project - Code Institute
 
 Welcome to my first readme file and my first website project.
 
-This is my first milestone project, which is a simple responsive website written in HTML5 and CSS3 with some added Bootstrap classes and javascript.
+This is my first milestone project, which is a simple responsive website written in HTML5 and CSS3 with some added Bootstrap classes.
 
 - About the website:
 The website is a presentation a fictional Buddhist community in the city of Bristol, United Kingdom.

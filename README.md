@@ -33,4 +33,5 @@ The source of images used for the backgrounds and garden gallery were found on h
 The video links added to about meditation and yoga sections:
 
 Meditation video source link: https://www.youtube.com/watch?v=thcEuMDWxoI .
+
 Yoga video source link: https://www.youtube.com/watch?v=VaoV1PrYft4 .

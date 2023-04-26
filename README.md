@@ -12,7 +12,7 @@ make the website responsive and mobile phone friendly.
 
 - About the website:
 The website is a presentation a fictional Buddhist community in the city of Bristol, United Kingdom.
-The community teaches Buddhist principles and believes as well as hosts meditation and yoga sessions to members and non-members.
+The community teaches Buddhist principles and beliefs as well as hosts meditation and yoga sessions to members and non-members.
 Within the community there is a garden, where members can learn about gardening and growing their own food, which can be taken home 
 by the members or donated to a charity.
 

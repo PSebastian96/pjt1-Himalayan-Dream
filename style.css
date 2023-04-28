@@ -314,7 +314,7 @@ ul, ol {
     background: url("images/zengirl.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 920px;
     width: 100%;
 }
 
@@ -336,13 +336,12 @@ ul, ol {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 2.5%;
-    left:10%;
-    right: 10%;
+    margin: 1rem 1rem 1rem 5rem;
 }
 
 .layout-form p {
-    text-align: center;
+    font-size: larger;
+    text-decoration: underline;
 }
 
 .content-form-input {

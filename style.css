@@ -486,3 +486,19 @@ ul, ol {
         width: auto;
     }
 }
+
+/* media query min-widht 1540 px*/
+@media screen (min-width: 1540px) {  
+
+.text-position-middle {
+    padding-top: 120px;
+}
+
+#visit-title {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+}

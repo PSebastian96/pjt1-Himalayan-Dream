@@ -333,6 +333,7 @@ ul, ol {
     background-color:rgba(60, 60, 60, 0.6);
     max-width: 100%;
     position:absolute;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 2.5%;

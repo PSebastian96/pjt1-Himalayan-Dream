@@ -323,12 +323,11 @@ ul, ol {
     background: url("images/yogaform.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 920px;
     width: 100%;
 }
 
 .layout-form { 
-    text-align: center;
     color: white;
     background-color:rgba(60, 60, 60, 0.6);
     max-width: 100%;
@@ -336,10 +335,11 @@ ul, ol {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin: 1rem 1rem 1rem 5rem;
+    margin: 2rem 1rem 1rem 5rem;
 }
 
 .layout-form p {
+    text-align: center;
     font-size: larger;
     text-decoration: underline;
 }
@@ -483,6 +483,23 @@ ul, ol {
     .video-content i {
         height: auto;
         width: auto;
+    }
+    #yoga-form-container {
+        background-position: left;
+        height: 950px;
+        width: 100%;
+    }
+    
+    #med-form-container{
+        background: url("images/zengirl.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 950px;
+        width: 100%;
+    }
+
+    .layout-form { 
+        margin: 1rem 1rem 1rem 1rem;
     }
 }
 

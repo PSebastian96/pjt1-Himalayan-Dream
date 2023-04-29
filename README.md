@@ -94,7 +94,32 @@ Future features:
 
 ## Testing 
 
+[W3C Markup Validator] - (https://validator.w3.org)
+- W3C Markup Validator was used to check and validation of code for HTML and CSS file.
 
+### CSS validator results:
+
+<img width="881" alt="image" src="https://user-images.githubusercontent.com/123810890/235325936-43766ee9-ef1e-4dfd-a596-3e80dd94784c.png">
+
+### HTML validator results:
+
+index.html
+
+buddhism.html
+
+meditation.html
+
+yoga.html
+
+<img width="860" alt="image" src="https://user-images.githubusercontent.com/123810890/235326170-fa9d0b3b-8ee9-4fc4-abaf-717dacb426a6.png">
+
+garden.html
+
+<img width="849" alt="image" src="https://user-images.githubusercontent.com/123810890/235326207-89016b4c-444e-482b-bc3d-2b3f2d4cf516.png">
+
+contact.html
+
+<img width="854" alt="image" src="https://user-images.githubusercontent.com/123810890/235326312-eabaf46e-4d49-48e4-a1d4-08c1c9d5e961.png">
 
 ## Technologies Used
 

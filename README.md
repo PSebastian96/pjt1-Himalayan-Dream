@@ -29,17 +29,35 @@ Note * - * the forms on the website have no backend, therefore all the entered d
 ## User Experience (UX)
 
 - About the website:
+
 The website is a presentation a fictional Buddhist community in the city of Bristol, United Kingdom.
 The community teaches Buddhist principles and beliefs as well as hosts meditation and yoga sessions to members and non-members.
 Within the community there is a garden, where members can learn about gardening and growing their own food, which can be taken home 
 by the members or donated to a charity.
 
 - Who is this website for ?
+
 The target audience is people who would like to learn about Buddhism and want to join the Buddhist community to practice the religion or just to visit and attend some of the meditation and yoga sessions that are provided by the Himalayan Dream community.
 
 - Why people visit the website ?
+
 Visitors of the website can can get contact details about and location of the community.
 Visitors can also book their meditation and/or yoga sessions on selected days and times.
+
+- Design brief:
+
+Colors used: 
+
+Primary focus was on orange color as orange is the color of the Buddhist monks robes.
+
+Font style:
+
+Used font style is 'Kalam' with black color with orange background gives a warm and calming effect while the user reads about the buddhist beliefs.
+
+Forms:
+
+Medtitation and Yoga forms have picture backgrounds, meditation booking form contains a image of meditating girl while yoga session form contains 
+a group exercising. The goal of the pictures and forms are to encourage the user to book their sessions and have a modern look and simple design.
 
 - Site map :
 
@@ -58,6 +76,10 @@ Tablet Screen:
 Phone Screen:
 
 ![phone view](https://user-images.githubusercontent.com/123810890/235324661-9fe0a819-91bf-4ff2-a856-96de31d0380c.jpg)
+
+## Testing 
+
+
 
 ## Technologies Used
 

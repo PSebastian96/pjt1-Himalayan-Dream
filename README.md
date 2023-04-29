@@ -1,5 +1,7 @@
 # pjt1-Himalayan-Dream-Code Institute
 First Milestone Project - Code Institute 
+Created by - Szebasztian Pintyer
+
 
 Welcome to my first readme file and my first website project.
 

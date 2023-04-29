@@ -77,6 +77,21 @@ Phone Screen:
 
 ![phone view](https://user-images.githubusercontent.com/123810890/235324661-9fe0a819-91bf-4ff2-a856-96de31d0380c.jpg)
 
+## Features
+
+Existing Features:
+
+Logo on the left side, in the middle can be found the navbar with links to the “Home”, “Buddhism”, "Meditation Session", "Yoga Session", “Community Garden”, "Contact" and a sign up button at the right.
+
+iframe to show the location in google maps.
+
+Videos in meditation and yoga session pages, where the user can play and watch the video content on the website or redirect to the source of the video.
+
+Form : Icluded in the top-right section, the users can always see the oppornutity to register.
+
+Future features:
+"Event calendar with news feed and registration/booking options for members."
+
 ## Testing 
 
 

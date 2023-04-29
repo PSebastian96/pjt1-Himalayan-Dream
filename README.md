@@ -1,7 +1,7 @@
 ## pjt1-Himalayan-Dream-Code Institute
 First Milestone Project - Code Institute 
 
-<h2> Student Details </h2>
+## Student Details
 
 Name: Szebasztian Pintyer
 
@@ -11,7 +11,7 @@ Institution: City of Bristol College (https://www.cityofbristol.ac.uk) in partne
 
 Location: Bristol, UK
 
-<h2> Introduction </h2>
+## Introduction
 
 Welcome to my first readme file and my first website project.
 
@@ -45,6 +45,20 @@ Visitors can also book their meditation and/or yoga sessions on selected days an
 
 <img width="649" alt="website map" src="https://user-images.githubusercontent.com/123810890/234129322-7744f381-9109-436f-9d45-22f71144dd0e.png">
 
+- Wireframes :
+
+PC Screen:
+
+![PC view](https://user-images.githubusercontent.com/123810890/235324641-fcc5a082-ea5a-426f-a505-087dd70bfb08.jpg)
+
+Tablet Screen:
+
+<img width="464" alt="Tablet view" src="https://user-images.githubusercontent.com/123810890/235324631-7e216054-76ca-404e-892b-97392386470c.png">
+
+Phone Screen:
+
+![phone view](https://user-images.githubusercontent.com/123810890/235324661-9fe0a819-91bf-4ff2-a856-96de31d0380c.jpg)
+
 ## Technologies Used
 
 ### Languages Used
@@ -68,6 +82,8 @@ Visitors can also book their meditation and/or yoga sessions on selected days an
     - Google fonts were used to import the 'Kalam' font into the style.css file which is used on all pages throughout the project.
 3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+4. [Diagrams.net](https://app.diagrams.net)
+    - Diagrams.net was used to create the wireframes for pages during the design process.
 
 ## Deployment
 

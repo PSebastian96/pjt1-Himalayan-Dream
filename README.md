@@ -1,7 +1,10 @@
 # pjt1-Himalayan-Dream-Code Institute
 First Milestone Project - Code Institute 
+
 Created by - Szebasztian Pintyer
+
 [Repository link] - https://github.com/PSebastian96/pjt1-Himalayan-Dream
+
 [Deployed link] - https://psebastian96.github.io/pjt1-Himalayan-Dream/
 
 Welcome to my first readme file and my first website project.

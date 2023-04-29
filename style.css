@@ -179,22 +179,27 @@ footer p {
     position: relative;
 }
 
-ul, ol {
-    margin: 0;
-    padding-left: 0;
+.beliefs-content p {
+    text-align: justify;
 }
 
 #center-text {
     text-align: center;
     margin: 0;
     padding-top: 20px;
+    padding-bottom: 40px;
     text-decoration: underline 2px;
 }
 
 .line-divider {
-    width: auto;
+    width: 40vh;
     height: 2px;
     background-color: #000000;
+    margin: auto;
+}
+
+#bottom-center-text {
+    background-color: orange;
 }
 
 #bottom-center-text h4 {
@@ -202,6 +207,7 @@ ul, ol {
     font-weight: bolder;
     font-size: 20px;
     margin-bottom: 0;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -212,11 +218,6 @@ ul, ol {
 
 #bottom-center-text a:hover {
     color: blue;
-}
-
-#buddhism-text p {
-    margin: 1px;
-    padding: 1px;
 }
 
 /* buddhism, meditation and yoga title text*/

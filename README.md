@@ -166,7 +166,7 @@ contact.html
 ### Further Testing
 
 - The Website was tested on Google Chrome, Microsoft Edge, Opera and Mozilla browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop and Samsung Galaxy , Nokia 4.2 .
+- The website was viewed on a variety of devices such as Desktop, Laptop and Samsung Galaxy S10+ , Nokia 4.2 .
 
 ## Testing User Stories from User Experience (UX)
 

@@ -96,7 +96,7 @@ iframe to show the location in google maps.
 
 Videos in meditation and yoga session pages, where the user can play and watch the video content on the website or redirect to the source of the video.
 
-Form : Icluded in the top-right section, the users can always see the oppornutity to register.
+Register: Included in the top-right section, the users can always see the oppornutity to register.
 
 Future features: Event calendar with news feed and registration/booking options for members.
 

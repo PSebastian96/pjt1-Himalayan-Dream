@@ -102,6 +102,8 @@ Future features: Event calendar with news feed and registration/booking options 
 
 ## Testing 
 
+### W3C Validator
+
 [W3C Markup Validator] - (https://validator.w3.org)
 - W3C Markup Validator was used to check and validation of code for HTML and CSS file.
 
@@ -129,6 +131,22 @@ contact.html
 
 <img width="854" alt="image" src="https://user-images.githubusercontent.com/123810890/235326312-eabaf46e-4d49-48e4-a1d4-08c1c9d5e961.png">
 
+### Lighthouse testing results
+
+index.html
+
+buddhism.html
+
+meditation.html
+
+yoga.html
+
+garden.html
+
+contact.html
+
+
+
 ## Technologies Used
 
 ### Languages Used
@@ -154,6 +172,8 @@ contact.html
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 4. [Diagrams.net](https://app.diagrams.net)
     - Diagrams.net was used to create the wireframes for pages during the design process.
+5. [Visual-paradigm.com](https://online.visual-paradigm.com/)
+    - VIsual-paradigm was used to create the site map of the web site.
 
 ## Deployment
 

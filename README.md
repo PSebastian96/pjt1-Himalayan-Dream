@@ -46,9 +46,18 @@ Visitors can also book their meditation and/or yoga sessions on selected days an
 
 - Design brief:
 
-Colors used: 
+Header navigation bar:
 
-Primary focus was on orange color as orange is the color of the Buddhist monks robes.
+The navbar is on the top of the page so the user can easely access pages of the site. Also the navbar is fixed, therefore while the user scrolls down, the navbar will follow the page which makes it accessible for the user to switch another page or to join the community.
+
+Hero images:
+
+Hero images contain Buddhist themes, such as Buddha statues, Stacked rocks for meditation and a group of people for yoga section.
+Images serve to make the website aesthetic and to help the user feel joy and elevated in order to boost the interest to join the community or book their meditation and/or yoga session.
+
+Colour used: 
+
+Primary focus was on orange color as orange is the color of the Buddhist monks robes and the colours characteristic creates a warm and enthusiasm.
 
 Font style:
 
@@ -89,8 +98,7 @@ Videos in meditation and yoga session pages, where the user can play and watch t
 
 Form : Icluded in the top-right section, the users can always see the oppornutity to register.
 
-Future features:
-"Event calendar with news feed and registration/booking options for members."
+Future features: Event calendar with news feed and registration/booking options for members.
 
 ## Testing 
 

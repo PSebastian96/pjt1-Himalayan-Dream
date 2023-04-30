@@ -135,17 +135,27 @@ contact.html
 
 index.html
 
+<img width="913" alt="image" src="https://user-images.githubusercontent.com/123810890/235344698-93161964-32d8-49a5-9fda-5bdb7899d697.png">
+
 buddhism.html
+
+<img width="920" alt="image" src="https://user-images.githubusercontent.com/123810890/235344755-ea1aab01-24b6-4d1a-9677-7ce190aeb30d.png">
 
 meditation.html
 
+<img width="915" alt="image" src="https://user-images.githubusercontent.com/123810890/235344806-0c2b3958-3167-402e-a54f-063395589a81.png">
+
 yoga.html
+
+<img width="916" alt="image" src="https://user-images.githubusercontent.com/123810890/235344838-b8b35158-740e-4df0-86df-af4dd2f8abcb.png">
 
 garden.html
 
+<img width="907" alt="image" src="https://user-images.githubusercontent.com/123810890/235344888-d4072480-cdfb-4f30-9233-7050fc9c29a3.png">
+
 contact.html
 
-
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/123810890/235344938-987ee56a-221d-4482-8753-c68571bf0d34.png">
 
 ## Technologies Used
 

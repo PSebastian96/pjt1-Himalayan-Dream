@@ -17,7 +17,7 @@ Welcome to my first readme file and my first website project.
 
 This is my first milestone project, which is a simple responsive website written in HTML5 and CSS3 with added Bootstrap classes.
 
-The projects objective is to make a front end website with HTMl and CSS, while bootstrap classes have been used to 
+The projects objective is to make a front end - static website with HTML5 and CSS3, while bootstrap classes have been used to 
 make the website responsive and mobile phone friendly.
 
 Note * - * the forms on the website have no backend, therefore all the entered data (name,email) won't be stored and actual registration is not possible. *
@@ -156,6 +156,12 @@ garden.html
 contact.html
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/123810890/235344938-987ee56a-221d-4482-8753-c68571bf0d34.png">
+
+## Testing User Stories from User Experience (UX)
+
+### FIrst time visitor goals :
+
+### Frequent user goals :
 
 ## Technologies Used
 

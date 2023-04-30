@@ -115,9 +115,15 @@ Future features: Event calendar with news feed and registration/booking options 
 
 index.html
 
+<img width="851" alt="image" src="https://user-images.githubusercontent.com/123810890/235354142-bb75ec43-e2d7-4b65-8c29-6783585f6352.png">
+
 buddhism.html
 
+<img width="853" alt="image" src="https://user-images.githubusercontent.com/123810890/235354235-f96a8c4d-eff4-47b7-93d6-669d1889ca39.png">
+
 meditation.html
+
+<img width="857" alt="image" src="https://user-images.githubusercontent.com/123810890/235354277-2ba96edc-5825-4f7f-9110-c53324b09b1e.png">
 
 yoga.html
 
@@ -156,6 +162,11 @@ garden.html
 contact.html
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/123810890/235344938-987ee56a-221d-4482-8753-c68571bf0d34.png">
+
+### Further Testing
+
+- The Website was tested on Google Chrome, Microsoft Edge, Opera and Mozilla browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, 
 
 ## Testing User Stories from User Experience (UX)
 

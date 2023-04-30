@@ -166,13 +166,32 @@ contact.html
 ### Further Testing
 
 - The Website was tested on Google Chrome, Microsoft Edge, Opera and Mozilla browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop, 
+- The website was viewed on a variety of devices such as Desktop, Laptop and Samsung Galaxy , Nokia 4.2 .
 
 ## Testing User Stories from User Experience (UX)
 
 ### FIrst time visitor goals :
 
+As a first time visitor, I want information about the community (location, activities) and to read about the religion.
+
+- At the top of the page there is the logo at the left side and the navigation menu in the center 
+which makes it easy to navigate through the pages of the site. While on the right side, there is a button to Join the community.
+
+- At the bottom of every page, in the footer section, the user can select the social media pages and can follow the community, share posts with others or raise awarness of the existence of the community and website. 
+
+- The user while scrolls down the pages of the site, the menu bar is fixed and follows the users page view, so tha navigation across the web site is easy and accessible, also the join button is also in the menu bar which makes it easy to the user to register quickly and effortlessly.
+
+- In the Community Garden section the as first time visitor, the user has a preview of the gardens gallery with an icon of Instagram, where the visitor can see more pictures related to the community and garden activity and pictures of events.
+
+- On the index page, the first time user gets a brief information about the community and below the text/hero image, the user gets the information of the location and contact details of the community.
+
+- On the meditation and yoga session pages theres a form, where the user can book the first time session and have a visit at the community.
+
 ### Frequent user goals :
+
+This is in development, as I continue with the course and studies, I intend to come back to this project and add/create the following:
+
+As a frequent user/member I want to have a calendar with events and booking form, while also would like to receive email notifications about upcoming events, lessons and charity activities within the community.
 
 ## Technologies Used
 

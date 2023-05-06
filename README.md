@@ -210,7 +210,7 @@ As a frequent user/member I want to have a calendar with events and booking form
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Kalam' font into the style.css file which is used on all pages throughout the project.

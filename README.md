@@ -9,7 +9,7 @@ Student ID: 715159
 
 Institution: City of Bristol College (https://www.cityofbristol.ac.uk) in partnership with Code Institute (https://codeinstitute.net) 
 
-Location: Bristol, UK
+Location: Bristol, UK.
 
 ## Introduction
 
